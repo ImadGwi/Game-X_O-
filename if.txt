@@ -1,0 +1,61 @@
+if (squares[1]==squares[2] && squares[2]==squares[3] && squares[1]!='') {
+        console.log("done");
+    }
+    else if (squares[4]==squares[5] && squares[5]==squares[6] && squares[4]!='') {
+        console.log("done");
+    }
+    if (squares[7]==squares[8] && squares[8]==squares[9] && squares[7]!='') {
+        console.log("done");
+    }
+    if (squares[1]==squares[4] && squares[2]==squares[3] && squares[1]!='') {
+        console.log("done");
+    }
+    if (squares[1]==squares[2] && squares[2]==squares[3] && squares[1]!='') {
+        console.log("done");
+    }
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------.
+
+
+    || squares[i]==squares[i+1] && squares[i+1]==squares[i+2] &&squares[i]!=''
+            || squares[i]==squares[i+4] && squares[i+4]==squares[i+8]&&squares[i]!=''&& i==1
+            || squares[i]==squares[i+2] && squares[i+2]==squares[i+4]&&squares[i]!=''&& i==3
+
+
+
+
+
+
+
+winner.innerHTML = `${squares[i]} is the winner`;
+document.getElementById('i'+i).style.background = 'blue';
+document.getElementById('i'+Number(i+3)).style.background = 'blue';
+document.getElementById('i'+Number(i+6)).style.background = 'blue';
+
+
+
+
+winner.innerHTML = `${squares[i]} is the winner`;
+document.getElementById('i'+i).style.background = 'blue';
+document.getElementById('i'+Number(i+1)).style.background = 'blue';
+document.getElementById('i'+Number(i+2)).style.background = 'blue';
+
+
+
+
+winner.innerHTML = `${squares[i]} is the winner`;
+document.getElementById('i'+i).style.background = 'blue';
+document.getElementById('i'+Number(i+4)).style.background = 'blue';
+document.getElementById('i'+Number(i+8)).style.background = 'blue';
+
+
+winner.innerHTML = `${squares[i]} is the winner`;
+document.getElementById('i'+i).style.background = 'blue';
+document.getElementById('i'+ Number(i+2)).style.background = 'blue';
+document.getElementById('i'+Number(i+4)).style.background = 'blue';
+
+
+
+t
+        

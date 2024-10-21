@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'system-ui';
+}
+.all{
+    background: #535358;
+    width: 585px;
+    height: 685px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: 100px repeat(3,3fr);
+    border-left: 25px solid #535358;
+    border-right: 25px solid #535358;
+    border-top: 10px solid #535358;
+    border-bottom: 10px solid #535358;
+}
+
+.all div{
+    background: aqua;
+    gap: 5px;
+    margin: 5px;
+    
+}
+.winner{
+    grid-column: 1/4;
+    margin: 0px 150px;
+    gap: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+
+.square{
+    font-size: 110px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+.square:hover{
+    background: black;
+    color: aqua;
+    cursor: pointer;
+}
